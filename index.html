@@ -7,65 +7,53 @@
     <title>formulario</title>
 </head>
 <body>
-
-     <label> <fieldset>Dados Pessoais </label> <br> <br>
+    <div>
     <form action="" method="get">
-            <label>Digite o seu nome:</label> <input type="text" id="nome" name="nome" placeholder="Ex: João da Silva" required> <br><br>
-            <label>Idade:</label> <input type="number" id="Idade" name="Idade" placeholder="18" required> <br><br>
-            <label>E-mail:</label> <input type="email" id="email" name="email" placeholder="Ex: joao@silva.com" required> <br><br>
-            <label>Senha:</label> <input type="password" id="senha" name="senha" placeholder="Ex: Digite uma senha forte" required> <br>
-        
-                    <br>
-                    <br>
-                    <br>
+        <fieldset>
+            <legend>Fale conosco</legend>
 
-            <label>Selecione Estado:</label>
-        <select name="estado" id="estados">
-                <option value="Selecioneestados">-Selecione-</option>
-                <option>Ceará</option>
-                <option>Maranhão</option>
-                <option>Piauí</option>
-                <option>Bahia</option>
-        </select>
-    </fieldset>
+                <section>
+                    <label>Nome:*</label>
+                    <input type="text" name="nomeDeUsuario" placeholder="Digite seu nome" required>
+                </section>
 
-    <fieldset><label>Dados Profissionais</label>
-    
-                    <br>
-                    <br>
+            <br>
 
-            <label>Selecione as Tecnologias:</label><br>
-                <input type="checkbox" id="html" name="html"> <label>HTML</label>
-                <input type="checkbox" id="css" name="css"> <label>CSS</label>
-                <input type="checkbox" id="javascript" name="javascript"> <label>Javascript</label>
-                <input type="checkbox" id="Typescript" name="Typescript"> <label>Typescript</label> <br>
+                <section>
+                    <label>E-mail:*</label>
+                    <input type="text" name="emailDeUsuario" placeholder="Digite seu e-mail" required>
+                </section>
 
-                    <br>
-                    <br>
+            <br>
 
-            <label>Selecione sua Ocupação:</label><br>
-                <input type="radio" id="front-end" name="front-end"> <label>Front-End</label>
-                <input type="radio" id="back-end" name="back-end"> <label>Back-End</label>
-                <input type="radio" id="full stack" name="full stack"> <label>Full Stack</label> <br>
+                <section>
+                <label>Selecione um assunto</label>
+                    <select required>
+                        <option>Selecione</option>
+                        <option>Atumalacaaa kkkkk</option>
+                    </select>
+             </section>
 
-                    <br>
-                    <br>
+            <br>
 
-            <label>Escreva sobre você:</label> <br>
-                <textarea name="" id="" cols="50" rows="6"></textarea> <br> <br>
-            <label>Anexe seu curriculo:</label> 
-                <input type="file" required>
+                <section>
+                    <label>Texto:</label>
+                    <textarea></textarea>
+                </section>
 
-                    <br>
+            <br>
 
-    </fieldset>
+                <section>
+                    <input type="reset" value="Cancelar">
+                    <input type="submit" value="Enviar">
+                </section>
+            </form>
+        </fieldset>
+    </div>
 
-                <br>
-                    <br>
+    <div>
+    Link: <a href="./2atividade.html">Questão 02</a>
+    </div>
 
-                <input type="submit" value="Enviar">
-                <input type="reset" value="reset">
-
-    </form> 
 </body>
 </html>
